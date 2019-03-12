@@ -9,6 +9,9 @@ phi = 0.4;
 %Motor parameters
 
 
+
+
+
 %Load parameters
 rho = 1.2;
 c_d = 0.2;
