@@ -1,20 +1,21 @@
-Ua_base = 93.92;
-Ia_base = 160;
+Ua_base = 19.275;
+Ia_base = 270;
 Za_base = Ua_base/Ia_base;
-tau_base = 68.8;
-N_base = 1900;
-J_m = 0.06;
+tau_base = 19.2;
+N_base = 2520;
+J_m = 0.0234;
 J_gear = 0.1;
+eta = 0.904;
 omega_base = N_base*pi/30;
-Uf_base = 75;
-If_base = 7.5;
-Zf_base = 10;
+%Uf_base = 75;
+%If_base = 7.5;
+%Zf_base = 10;
 ny = 0.904;
-ra = 0.0646;
-la = 3.56e-3;
-rf = 0.79;
+ra = 0.1968;
+la = 6.749e-5;
+%rf = 0.79;
 Ta = la/ra;
-Tm = (J_m+J_gear)*omega_base^2/Ua_base/Ia_base;
+Tm = J_m*omega_base^2/Ua_base/Ia_base;
 
 
 %%%%%%Current controller armature parameters
