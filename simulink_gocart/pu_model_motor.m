@@ -10,11 +10,11 @@ Uf_base = 75;
 If_base = 7.5;
 Zf_base = 10;
 ny = 0.904;
-r_a = 0.0646;
+ra = 0.0646;
 la = 3.56e-3;
-r_f = 0.79;
+rf = 0.79;
 Ta = la/ra;
-T_m = (J_m+J_gear)*omega_base^2/Ua_base/Ia_base;
+Tm = (J_m+J_gear)*omega_base^2/Ua_base/Ia_base;
 
 
 %%%%%%Current controller armature parameters
