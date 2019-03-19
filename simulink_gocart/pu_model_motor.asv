@@ -37,9 +37,9 @@ Tsumf=Tdelayf+Tff;
 Kpf=0.2/(udc*2*Tsumf);
 
 %%%%Speed controller parameters
-Beta=4;
+Beta=1;
 Tin=Beta*2*Tsum;
-Teqi=2*Tsum;
+Teqi=2*Tsum
 Tdelayn=1;
-TsumN=Teqi;
+TsumN=Tdelayn+Tn;
 Kpn=Tm/(sqrt(Beta)*TsumN);
