@@ -6,7 +6,7 @@ N_base = 2520;
 J_m = 0.0234;
 J_gear = 0.1;
 J_wheel=0.04;
-J_wheelm=J_wheel*(8.488263631567752e+02/2520)^2;
+J_wheelm=J_wheel*
 eta = 0.904;
 omega_base = N_base*pi/30;
 %Uf_base = 75;
@@ -17,7 +17,7 @@ ra = 0.1968;
 la = 6.749e-5;
 %rf = 0.79;
 Ta = la/ra;
-Tm = (J_m+J_gear/2+J_wheelm/2)*omega_base^2/Ua_base/Ia_base;
+Tm = (J_m+J_gear+J_wheelm)*omega_base^2/Ua_base/Ia_base;
 Ubatt=24;
 
 %Mechanic constants
