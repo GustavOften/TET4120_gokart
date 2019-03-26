@@ -1,7 +1,8 @@
 %Gocart parameters
 A = 2;
 m = 100;
-r_wheel = 0.5*25;
+r_wheel = 0.5*0.25;
+m_wheel  = 2.5;
 g = 9.81;
 phi = 0.4;
 %n = 0.3;
