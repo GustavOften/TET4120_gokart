@@ -52,3 +52,6 @@ Teqi=2*Tsum;
 Tdelayn=1;
 TsumN=Teqi;
 Kpn=Tm/(sqrt(Beta)*TsumN);
+
+%%%% Transfer functions.
+motor = tf(
