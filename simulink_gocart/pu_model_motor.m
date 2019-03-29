@@ -29,7 +29,7 @@ tau_base_wheel=92.01;
 
 
 %%%%%%Current controller armature parameters
-fsw=1000;
+fsw=10000;
 Tsw=1/fsw;
 udc=Ubatt/Ua_base;
 Taf=0.2*Tsw;
@@ -46,7 +46,7 @@ Tsumf=Tdelayf+Tff;
 Kpf=0.2/(udc*2*Tsumf);
 
 %%%%Speed controller parameters
-Beta=40;
+Beta=400;
 Teqi=2*Tsum;
 Tfn = Teqi;
 TsumN=Teqi*2;
